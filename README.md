@@ -6,10 +6,9 @@ to the game window, preventing it from leaving the game area.
 
 # Build and Run
 
-To build and run the project, run the following commands in the root directory of the project:
+To build and run the project, install Mingw-w64 and run the following commands:
 
 ```bash
-./gradlew fatJar
-
-java -jar build/libs/BrawlhallaScreenLock-1.0-SNAPSHOT-all.jar
+make
+./brawlhalla-screen-lock
 ```
