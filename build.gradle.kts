@@ -26,7 +26,7 @@ tasks.register<Jar>("fatJar") {
     archiveClassifier.set("all")
     manifest {
         attributes(
-            "Main-Class" to "pt.isel.MainKt"
+            "Main-Class" to "MainKt"
         )
     }
     from(sourceSets.main.get().output)
